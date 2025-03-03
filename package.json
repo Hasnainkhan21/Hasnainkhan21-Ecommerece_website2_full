@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hasnainkhan21.github.io/Ecommerece_website2_full",
+  "homepage": "https://hasnainkhan21.github.io/Hasnainkhan21-Ecommerece_website2_full/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

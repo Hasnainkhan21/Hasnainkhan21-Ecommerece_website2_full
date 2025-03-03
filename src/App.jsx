@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Home from './pages/Home';
@@ -16,7 +16,7 @@ import ErrorBoundary from './Components/ErrorBoundary';
 function App() {
   return (
     <ErrorBoundary>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
@@ -31,7 +31,7 @@ function App() {
           <Route path='/product/:id' element={<ProductDetails/>}></Route>
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </ErrorBoundary>
   )
 }
